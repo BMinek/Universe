@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebPage</title>
+</head>
+<style>
+  *{
+    padding: 0;
+    margin: 0%;
+    list-style-type: none;
+  }
+  
+  .nav_container{
+    background-color: rgb(28, 99, 99);
+    display: flex;
+  }
+  .nav_items{
+    padding: 15px;
+    cursor: pointer;
+  }
+
+  .nav_items:hover{
+    background-color:aqua
+  }
+
+  .nav_items a{
+    
+    text-decoration: none;
+    color: aliceblue; 
+
+  }
+
+</style>
+
+<body>
+  <ul class="nav_container">
+    <li class="nav_items"><a href="#">d</a></li>
+    <li class="nav_items"><a href="#">2</a></li>
+    <li class="nav_items"><a href="#">3</a></li>
+    <li class="nav_items"><a href="#">4</a></li>
+    <li class="nav_items"><a href="#">5</a></li>
+  </ul>
+</body>
+</html>
